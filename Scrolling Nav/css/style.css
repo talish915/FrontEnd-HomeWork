@@ -9,8 +9,13 @@ html{
 #Header{
     
     background-color: #212529;
-    padding: 18px 0;
+    padding: 18px 64px;
     text-align: center;
+    position: fixed;
+}
+#Header .span:hover{
+    color: #C1C1C1;
+    transition: 0.4s;
 }
 
 #Header .span{
