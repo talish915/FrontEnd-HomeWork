@@ -1,0 +1,819 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header-top{
+    background-color: #F6F6F8;
+    color: #9CAAAB;
+}
+.header-top .header-left a{
+    color: #9CAAAB;
+}
+.header-top .header-center .shop{
+    color: black;
+}
+.header-top .header-center .shop:hover{
+    text-decoration: underline;
+}
+.header-bottom .img img{
+    width: 25%;
+}
+.header-bottom .center a{
+    margin: 0 15px;
+    color: black;
+}
+.header-bottom .center .span1,.span2{
+    position: relative;
+}
+.header-bottom .center .span-blue{
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    font-size: 12px;
+    padding: 1px 7px;
+    border-radius: 50px;
+    color: #fff;
+}
+.header-bottom .center .span-yellow{
+    position: absolute;
+    top: -11px;
+    left: 20px;
+    font-size: 12px;
+    padding: 1px 7px;
+    border-radius: 50px;
+    color: #fff;
+}
+.header-bottom .center .span-blue{
+    background-color: #01BAD4;
+}
+.header-bottom .center .span-yellow{
+    background-color: #FFA800;
+}
+.header-bottom .right a{
+    color: black;
+    transition: 0.2s;
+}
+.header-bottom .right a:hover{
+    color: blue;
+    transition: 0.2s;
+}
+.header-bottom .right i{
+    margin:  0 10px;
+    font-size: 20px;
+}
+.header-bottom .right span{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    line-height: 19px;
+    left: 15px;
+    top: -8px;
+    box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.header-bottom .right .span{
+    position: relative;
+}
+.header-top .box{
+    display: flex;
+    justify-content: end;
+}
+.header-bottom-phone{
+    display: none;
+}
+#Slider{
+    background-image: url(https://wp.the4.co/kalles/wp-content/uploads/2021/07/slideshow_image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 19rem 0;
+    color: rgb(255, 255, 255);
+}
+#Slider .overlay{
+    background-color: rgba(34, 34, 34, 0.267);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+#Slider span{
+    display: block;
+}
+#Slider .text{
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 30%;
+    transform: translate(-15%);
+}
+#Slider .text h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#Slider .text span{
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#Slider .text a{
+    padding: 10px 2rem;
+    border: 2px solid #fff;
+    border-radius: 60px;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.4s;
+}
+#Slider .text a:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+}
+#First{
+    padding: 1rem 0;
+}
+#First .box,.watch{
+    margin: 1rem 14px;
+    overflow: hidden;
+    width: 23%;
+    position: relative;
+}
+#First .box img{
+    transition: 0.8s;
+}
+#First .box:hover img{
+    transform: scale(1.1);
+    transition: 0.8s;
+    
+}
+#First .box .a a{
+    position: absolute;
+    top: 82%;
+    left: 25%;
+    background-color: #fff;
+    padding: 10px 2rem;
+    font-weight: bold;
+    color: #232323;
+    width: 50%;
+    text-align: center;
+    transition: 0.4s;
+}
+#First .box .a a:hover{
+    background-color: rgba(255, 255, 255, 0.856);
+    transition: 0.4s;
+}
+#First .img-text h4{
+    font-size: 1rem;
+    font-weight: 400;
+}
+#First .img-text h3{
+    font-weight: bold;
+}
+#First .img-text p{
+    color: #8A8A89;
+}
+#First .img-text{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+#First .img-2-text{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    text-align: center;
+}
+#First .img-2-text h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+#First .img-2-text h3{
+    font-size: 3.3rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+#First .img-2-text a{
+    background-color: rgba(34, 34, 34, 0);
+    border: 2px solid #000;
+    padding: 7px 2rem;
+    color: #000;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+#First .img-2-text a:hover{
+    background-color: #56CFE1;
+    border: 2px solid #56CFE1;
+    color: #fff;
+    transition: 0.4s;
+}
+#trending{
+    padding: 3rem 0;
+}
+#trending .container .title-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#trending .container .title-text h3 {
+    color: #222222;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+}
+
+#trending .container .title-text h3::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40%;
+}
+
+#trending .container .title-text h3::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40%;
+}
+
+#trending .container .title-text .title {
+    color: #878787;
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+}
+
+#trending .container .row .item .image{
+    position: relative;
+    overflow: hidden;
+}
+
+#trending .container .row .item .image .icons{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#trending .container .row .item .image .icons i{
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#trending .container .row .item .image .sale{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #FF4E00;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+#trending .container .row .item .image::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1);
+    transition: opacity .3s;
+    opacity: 0;
+}
+
+#trending .container .row .item .image:hover::before {
+    opacity: 1;
+}
+
+#trending .container .row .item .image:hover .icons{
+    opacity: 1;
+}
+
+#trending .container .row .item .image:hover .buttons{
+    opacity: 1;
+    top: 50%;
+}
+
+
+#trending .container .row .item .image:hover .icons .icon{
+    position: relative;
+}
+
+#trending .container .row .item .image .icons .icon span{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 55%;
+    left: 130%;
+    background: black;
+    color: white;
+    padding: 0 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#trending .container .row .item .image .icons .icon .animate:hover{
+    animation: rotate 1s .1s infinite;
+}
+
+#trending .container .row .item .image .icons .icon:hover span{
+    opacity: 1;
+}
+
+#trending .container .row .item .image .buttons{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+}
+
+#trending .container .row .item .image .buttons a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 20px;
+    background: white;
+    color: #000;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color .1s;
+}
+
+#trending .container .row .item:hover .image img {
+    display: none;
+}
+
+#trending .container .row .item:hover .image .image2{
+    display: inline;
+    animation: zoom 2s linear forwards;
+}
+
+#trending .container .row .item .image .buttons a:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+#trending .container .row .item .image .buttons a:hover span{
+    transform: translateY(-50px);
+}
+
+#trending .container .row .item .image .buttons a:hover i{
+    top: 50%;
+}
+
+#trending .container .row .item .image .buttons a span{
+    transition: all .3s;
+    display: inline-block;
+}
+
+#trending .container .row .item .image .buttons a i{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .3s;
+}
+
+#trending .container .row .item .image img {
+    width: 100%;
+}
+
+#trending .container .row .item .image .image2 {
+    display: none;
+}
+
+#trending .container .row .item .text {
+    margin-top: 20px;
+}
+
+#trending .container .row .item .text h6 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 0.3rem;
+    transition: color .3s;
+    cursor: pointer;
+}
+
+#trending .container .row .item .text p {
+    color: #696969;
+    font-size: 14px;
+}
+
+#trending .container .row .item .text h6:hover{
+    color: #56cfe1;
+}
+
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes zoom{
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+#Products .container .title-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Products .container .title-text h3 {
+    color: #222222;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+}
+
+#Products .container .title-text h3::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 37%;
+}
+
+#Products .container .title-text h3::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 37%;
+}
+
+#Products .container .title-text .title {
+    color: #878787;
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+}
+
+#Products .container .row .item .image{
+    position: relative;
+    overflow: hidden;
+}
+
+#Products .container .row .item .image .icons{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#Products .container .row .item .image .icons i{
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#Products .container .row .item .image .sale{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #FF4E00;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+#Products .container .row .item .image::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1);
+    transition: opacity .3s;
+    opacity: 0;
+}
+
+#Products .container .row .item .image:hover::before {
+    opacity: 1;
+}
+
+#Products .container .row .item .image:hover .icons{
+    opacity: 1;
+}
+
+#Products .container .row .item .image:hover .buttons{
+    opacity: 1;
+    top: 50%;
+}
+
+
+#Products .container .row .item .image:hover .icons .icon{
+    position: relative;
+}
+
+#Products .container .row .item .image .icons .icon span{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 55%;
+    left: 130%;
+    background: black;
+    color: white;
+    padding: 0 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#Products .container .row .item .image .icons .icon .animate:hover{
+    animation: rotate 1s .1s infinite;
+}
+
+#Products .container .row .item .image .icons .icon:hover span{
+    opacity: 1;
+}
+
+#Products .container .row .item .image .buttons{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+}
+
+#Products .container .row .item .image .buttons a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 20px;
+    background: white;
+    color: #000;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color .1s;
+}
+
+#Products .container .row .item:hover .image img {
+    display: none;
+}
+
+#Products .container .row .item:hover .image .image2{
+    display: inline;
+    animation: zoom 2s linear forwards;
+}
+
+#Products .container .row .item .image .buttons a:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+#Products .container .row .item .image .buttons a:hover span{
+    transform: translateY(-50px);
+}
+
+#Products .container .row .item .image .buttons a:hover i{
+    top: 50%;
+}
+
+#Products .container .row .item .image .buttons a span{
+    transition: all .3s;
+    display: inline-block;
+}
+
+#Products .container .row .item .image .buttons a i{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .3s;
+}
+
+#Products .container .row .item .image img {
+    width: 100%;
+}
+
+#Products .container .row .item .image .image2 {
+    display: none;
+}
+
+#Products .container .row .item .text {
+    margin-top: 20px;
+}
+
+#Products .container .row .item .text h6 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 0.3rem;
+    transition: color .3s;
+    cursor: pointer;
+}
+
+#Products .container .row .item .text p {
+    color: #696969;
+    font-size: 14px;
+}
+
+#Products .container .row .item .text h6:hover{
+    color: #56cfe1;
+}
+
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes zoom{
+    to{
+        transform: scale(1.1);
+    }
+}
+@media (max-width: 576px){
+    .header-top {
+        text-align: center;
+    }
+    .header-top .box{
+        justify-content: center;
+    }
+    .header-bottom{
+        display: none;
+    }
+    .header-bottom-phone{
+        display: block;
+        padding: 1rem 0;
+    }
+    .header-bottom-phone .img img{
+        width: 75%;
+    }
+    .header-bottom-phone .right a{
+        color: black;
+        transition: 0.2s;
+    }
+    .header-bottom-phone .right a:hover{
+        color: blue;
+        transition: 0.2s;
+    }
+    .header-bottom-phone .right i{
+        margin:  0 10px;
+        font-size: 20px;
+        position: relative;
+    }
+    .header-bottom-phone .right span{
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        font-size: 10px;
+        line-height: 19px;
+        left: 15px;
+        top: -10px;
+        box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    #Slider{
+        background-image: url(https://wp.the4.co/kalles/wp-content/uploads/2021/07/slideshow_image.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+        padding: 10rem 0;
+        color: rgb(255, 255, 255);
+    }
+    #Slider .overlay{
+        background-color: rgba(34, 34, 34, 0.267);
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    #Slider span{
+        display: block;
+    }
+    #Slider .text{
+        position: absolute;
+        z-index: 1;
+        top: 40%;
+        left: 40%;
+        transform: translate(-30%);
+    }
+    #Slider .text h1{
+        font-size: 20px;
+    }
+    #Slider .text span{
+        font-style: italic;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #Slider .text a{
+        padding: 10px 2rem;
+        border: 2px solid #fff;
+        border-radius: 60px;
+        color: #fff;
+        font-weight: 700;
+        transition: 0.4s;
+    }
+    #Slider .text a:hover{
+        opacity: 0.7;
+        transition: 0.4s;
+    }
+    #First{
+        padding: 0 0;
+    }
+
+    #First .box,.watch{
+        margin: 1rem 5px;
+        overflow: hidden;
+        width: 46%;
+        position: relative;
+    }
+    #First .res-1{
+        width: 100%;
+    }
+    #First .res-2{
+        width: 100%;
+    }
+    #First .res-3{
+        width: 100%;
+    }
+    #First .box img{
+        transition: 0.8s;
+    }
+    #First .box:hover img{
+        transform: scale(1.1);
+        transition: 0.8s;
+        
+    }
+    #First .box .a a{
+        position: absolute;
+        top: 73%;
+        left: 25%;
+        background-color: #fff;
+        padding: 6px 1rem;
+        font-weight: bold;
+        color: #232323;
+        width: 50%;
+        text-align: center;
+        transition: 0.4s;
+    }
+    #First .box .a a:hover{
+        background-color: rgba(255, 255, 255, 0.856);
+        transition: 0.4s;
+    }
+    #First .img-2-text{
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        text-align: center;
+    }
+}
