@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    padding: 10rem;
+    background-image: url(https://www.whatspaper.com/wp-content/uploads/2021/11/geometric-wallpaper-whatspaper-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    background-color: rgba(112, 128, 144, 0.719);
+    padding: 9rem;
+    width: 50%;
+    margin: auto;
+    border: 5px solid white ;
+    border-radius: 20px;
+}
+div h1{
+    color: #fff;
+    margin-bottom: 10px;
+}
+div input{
+    margin: 5px 0;
+    border: 3px solid white;
+    border-radius: 5px; 
+    background-color: rgba(112, 128, 144, 0.719);
+    color: white;
+}
+div input::placeholder{
+    color: #fff;
+}
+div button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 3px 2rem;
+    border-radius: 5px ;
+}
+.bg-img{
+    background-image: url(https://i.pinimg.com/originals/d1/80/ac/d180acd84523de4537cd6ce1c132c95e.jpg);
+    background-size: cover;
+}
